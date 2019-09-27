@@ -53,3 +53,4 @@ kroot:x:1000:
 ssl-cert:x:113:postgres
 postgres:x:114:
 likhatov:x:1001:
+docker:x:115:

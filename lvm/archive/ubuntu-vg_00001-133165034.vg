@@ -3,14 +3,14 @@
 contents = "Text Format Volume Group"
 version = 1
 
-description = "Created *after* executing 'lvresize -rl +100%FREE /dev/ubuntu-vg/ubuntu-lv'"
+description = "Created *before* executing 'lvresize -rl +100%FREE /dev/ubuntu-vg/ubuntu-lv'"
 
 creation_host = "net-dep-test"	# Linux net-dep-test 4.15.0-64-generic #73-Ubuntu SMP Thu Sep 12 13:16:13 UTC 2019 x86_64
 creation_time = 1569563884	# Fri Sep 27 05:58:04 2019
 
 ubuntu-vg {
 	id = "Dw6CGO-WqRq-gFid-vYrw-62Oa-873H-N4qlI0"
-	seqno = 3
+	seqno = 2
 	format = "lvm2"			# informational
 	status = ["RESIZEABLE", "READ", "WRITE"]
 	flags = []
@@ -45,7 +45,7 @@ ubuntu-vg {
 
 			segment1 {
 				start_extent = 0
-				extent_count = 9983	# 38,9961 Gigabytes
+				extent_count = 1024	# 4 Gigabytes
 
 				type = "striped"
 				stripe_count = 1	# linear

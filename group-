@@ -18,7 +18,7 @@ voice:x:22:
 cdrom:x:24:kroot
 floppy:x:25:
 tape:x:26:
-sudo:x:27:kroot
+sudo:x:27:kroot,likhatov
 audio:x:29:
 dip:x:30:kroot
 www-data:x:33:
